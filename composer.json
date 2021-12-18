@@ -1,0 +1,25 @@
+{
+  "name": "anomalyce/atomic-theme",
+  "description": "Boilerplate for an Atomic theme with Vue 3 & Tailwindcss 3.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    { "name": "Anomalyce" }
+  ],
+  "require": {
+    "anomalyce/atomic-framework": "dev-main"
+  },
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "Anomalyce\\Atomic\\Theme\\": "./"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Anomalyce\\Atomic\\Theme\\ServiceProvider"
+      ]
+    }
+  }
+}
