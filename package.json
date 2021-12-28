@@ -21,7 +21,7 @@
     "modules/**"
   ],
   "dependencies": {
-    "@anomalyce/atomic": "^1.0.0",
+    "@anomalyce/atomic": "~1.0",
     "@anomalyce/atomic-core": "^1.0.0",
     "@anomalyce/atomic-feature": "^1.0.0"
   },
